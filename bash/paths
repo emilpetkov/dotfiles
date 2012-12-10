@@ -1,0 +1,6 @@
+# HomeBrew doctor advice
+export PATH=/usr/local/bin:$PATH
+# home's bin should be executable
+export PATH="$PATH:$HOME/bin"
+# all macs, baby!
+export PATH="$PATH:/usr/local/mysql/bin"

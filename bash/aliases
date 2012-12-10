@@ -1,0 +1,29 @@
+#!/bin/bash
+
+alias reload_aliases="source ~/.bash/aliases"
+alias aliases="vim ~/.bash/aliases && reload_aliases"
+
+# General
+alias ll="ls -la"
+alias o="open ."
+alias m="mate"
+
+# Rails related
+alias r="bundle exec rake"
+alias rdm="r db:migrate"
+alias rdtp="r db:test:prepare"
+alias rdmr="r db:migrate:reset"
+alias rg="rails generate"
+alias rmig="rails generate migration"
+alias showgem="BUNDLER_EDITOR=mate bundle open"
+alias be="bundle exec"
+
+# GIT related
+alias gl="git log"
+alias gst="git status"
+alias gs="git stash"
+alias gsa="git stash apply"
+alias gsc="git stash clear"
+alias gsp="git stash pop"
+alias grc="git rebase --continue"
+alias gca="git commit --amend"
