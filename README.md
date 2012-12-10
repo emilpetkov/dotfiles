@@ -5,6 +5,6 @@ as well as other tools I use daily like IRB, GIT, SSH, etc.
 
 Set up the following symlinks:
 
-* $ ln -s ~/dotfiles/irbrc ~/.irbrc 
-* $ ln -s ~/dotfiles/ackrc ~/.ackrc 
-* $ ln -s ~/dotfiles/bash_profile ~/.bash_profile
+* $ cp -i ~/dotfiles/irbrc ~/.irbrc 
+* $ cp -i ~/dotfiles/ackrc ~/.ackrc 
+* $ cp -i ~/dotfiles/bash_profile ~/.bash_profile
