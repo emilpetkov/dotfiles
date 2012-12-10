@@ -1,0 +1,7 @@
+--color
+--sort-files
+--smart-case
+
+--type-set=sass=.sass
+--type-set=coffee=.coffee
+
