@@ -2,6 +2,6 @@
 --sort-files
 --smart-case
 
---type-set=sass=.sass
---type-set=coffee=.coffee
-
+--type-add=coffee=.coffee
+--type-add html=.haml
+--type-add css=.sass,.scss
