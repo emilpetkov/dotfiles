@@ -16,7 +16,7 @@ alias o="open ."
 alias m="mate"
 
 # Ack
-alias ack="ack --pager='less -FRX'
+alias ack="ack --pager='less -FRX'"
 
 # Rails related
 alias r="bundle exec rake"
