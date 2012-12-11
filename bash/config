@@ -1,3 +1,15 @@
+# Don't check mail when opening terminal.
+unset MAILCHECK
+
+# todo - clean up
+export IRC_CLIENT='irssi'
+export EDITOR="$HOME/.rvm/bin/mate -w"     # "/usr/bin/mate -w"
+export GIT_EDITOR='$HOME/.rvm/bin/mate -w' #'/usr/bin/mate -w
+
+#history settings
+HISTFILESIZE=1000000000
+HISTSIZE=1000000
+
 # Colors taken from http://wiki.archlinux.org/index.php/Color_Bash_Prompt
 NO_COLOR='\e[0m' #disable any colors
 # regular colors

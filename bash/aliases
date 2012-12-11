@@ -4,9 +4,19 @@ alias reload_aliases="source ~/.bash/aliases"
 alias aliases="vim ~/.bash/aliases && reload_aliases"
 
 # General
-alias ll="ls -la"
+alias ll='ls -lh'
+alias la='ls -A'
+alias rm='rm -i'
+alias mv='mv -i'
+alias cp='cp -i'
+alias cd..='cd ..'
+alias ..='cd ..'
+alias tree='tree -C'
 alias o="open ."
 alias m="mate"
+
+# Ack
+alias ack="ack --pager='less -FRX'
 
 # Rails related
 alias r="bundle exec rake"
@@ -19,7 +29,10 @@ alias showgem="BUNDLER_EDITOR=mate bundle open"
 alias be="bundle exec"
 
 # GIT related
+alias gpr='git pull --rebase'
+alias gcm='git checkout master'
 alias gl="git log"
+alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cd) %C(bold blue)<%an>%Creset' --abbrev-commit --"
 alias gst="git status"
 alias gs="git stash"
 alias gsa="git stash apply"
