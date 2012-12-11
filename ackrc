@@ -1,7 +1,7 @@
 --color
 --sort-files
 --smart-case
-
---type-add=coffee=.coffee
---type-add html=.haml
---type-add css=.sass,.scss
+--all-types
+--type-set=coffee=.coffee
+--type-add=html=.haml
+--type-add=css=.sass,.scss
