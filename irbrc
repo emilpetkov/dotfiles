@@ -7,6 +7,7 @@ Wirble.init
 Wirble.colorize
  
 IRB.conf[:AUTO_INDENT] = true
+IRB.conf[:SAVE_HISTORY] = 10000
 
 class Object
   # get all the methods for an object that aren't basic methods from Object
