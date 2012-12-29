@@ -45,6 +45,16 @@ def rl(file_name = nil)
   end
 end
 
+def time(&block)
+  require 'benchmark'
+  result = nil
+  timing = Benchmark.measure do
+    result = block.()
+  end
+  puts "It took: #{timing}"
+  result
+end
+
 alias p pp
 alias quit exit
 
