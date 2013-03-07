@@ -1,0 +1,24 @@
+[user]
+  email = emil@emerchantpay.com
+  name = Emil Petkov
+[alias]
+  st = status
+  co = checkout
+  ci = commit
+  br = branch
+  df = diff
+  dc = diff --cached
+  lg = log -p
+  l = log --graph --decorate --pretty=oneline --abbrev-commit --all
+  dw = diff --word-diff=color
+  ls = ls-files
+  pul = pull
+[color]
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
+[color.diff]
+  meta = "blue bold"
+[core]
+  excludesfile = /Users/emilpetkov/.gitignore_global
