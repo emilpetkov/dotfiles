@@ -13,6 +13,7 @@
   dw = diff --word-diff=color
   ls = ls-files
   pul = pull
+  g = grep --break --heading --line-number
 [color]
   branch = auto
   diff = auto
@@ -22,3 +23,8 @@
   meta = "blue bold"
 [core]
   excludesfile = /Users/emilpetkov/.gitignore_global
+[grep]
+  extendRegexp = true
+  lineNumber = true
+[push]
+  default = matching

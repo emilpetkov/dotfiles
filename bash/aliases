@@ -6,12 +6,12 @@ alias aliases="vim ~/.bash/aliases && reload_aliases"
 # General
 alias ll='ls -lh'
 alias la='ls -A'
-alias lf="ls -l | egrep -v '^d'"
-alias ldir="ls -l | egrep '^d'"
 alias rm='rm -i'
 alias mv='mv -i'
 alias cp='cp -i'
 alias cd..='cd ..'
+alias lf="ls -l | egrep -v '^d'"
+alias ldir="ls -l | egrep '^d'"
 alias ..='cd ..'
 alias tree='tree -C'
 alias o="open ."
@@ -45,3 +45,10 @@ alias gca="git commit --amend"
 
 # security
 alias shred="shred -uz -n 9"
+
+# Postgresql
+alias pg="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log"
+
+# MySQL
+alias mysqlstart='sudo /usr/local/mysql/support-files/mysql.server start'
+alias mysqlstop='sudo /usr/local/mysql/support-files/mysql.server stop'

@@ -3,8 +3,8 @@ unset MAILCHECK
 
 # todo - clean up
 export IRC_CLIENT='irssi'
-export EDITOR="/usr/bin/mate -w"
-export GIT_EDITOR="/usr/bin/mate -w"
+export EDITOR="/usr/bin/vim"
+export GIT_EDITOR="/usr/bin/vim"
 
 # history handling
 export HISTCONTROL=erasedups
