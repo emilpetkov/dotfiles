@@ -42,6 +42,7 @@ alias gsc="git stash clear"
 alias gsp="git stash pop"
 alias grc="git rebase --continue"
 alias gca="git commit --amend"
+alias gf="git rev-parse --abbrev-ref HEAD | sed 's/feature\///' | xargs git flow feature finish"
 
 # security
 alias shred="shred -uz -n 9"
