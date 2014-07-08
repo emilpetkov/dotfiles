@@ -9,7 +9,8 @@ call vundle#begin()
  
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
-   
+Plugin 'tpope/vim-fugitive.git'
+
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
     
