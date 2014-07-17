@@ -23,6 +23,7 @@ Plugin 'garbas/vim-snipmate'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'thoughtbot/vim-rspec'
 Plugin 'ecomba/vim-ruby-refactoring'
+Plugin 'The-NERD-Commenter' 
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -30,6 +31,7 @@ Plugin 'ecomba/vim-ruby-refactoring'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
+filetype plugin on
 
 set nocompatible                " choose no compatibility with legacy vi
 syntax enable
