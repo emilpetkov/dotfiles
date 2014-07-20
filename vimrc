@@ -24,6 +24,7 @@ Plugin 'tomtom/tcomment_vim'
 Plugin 'thoughtbot/vim-rspec'
 Plugin 'ecomba/vim-ruby-refactoring'
 Plugin 'The-NERD-Commenter' 
+Plugin 'tpope/vim-unimpaired'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
