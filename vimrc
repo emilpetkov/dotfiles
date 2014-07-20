@@ -1,6 +1,5 @@
 set nocompatible              " be iMproved, required
-filetype off                  " required
-set number
+filetype off                  " required set number
 set tags=./tags;
 " Use ack instead of grep
 set grepprg=ack
@@ -31,6 +30,7 @@ Plugin 'tpope/vim-unimpaired'
     
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
+
 filetype plugin indent on    " required
 filetype plugin on
 
@@ -53,7 +53,7 @@ set ignorecase                  " searches are case insensitive...
 set smartcase                   " ... unless they contain at least one capital letter
 
 "  Themes
-colorscheme jellybeans
+colorscheme github
 
 noremap <Up> <nop>
 noremap <Down> <nop>
@@ -79,3 +79,9 @@ autocmd User fugitive
 autocmd BufReadPost fugitive://* set bufhidden=delete
 " add git branch to status line
 set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
+
+cnoremap %% <C-R>=fnameescape(expand('%:h')).'/'<cr>
+map <leader>ew :e %%
+map <leader>es :sp %%
+map <leader>ev :vsp %%
+map <leader>et :tabe %%
