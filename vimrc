@@ -86,7 +86,7 @@ map <leader>es :sp %%
 map <leader>ev :vsp %%
 map <leader>et :tabe %%
 
-# Firefox shortcuts ported for tab browsing
+" Firefox shortcuts ported for tab browsing
 map <D-S-]> gt
 map <D-S-[> gT
 map <D-1> 1gt
@@ -99,3 +99,6 @@ map <D-7> 7gt
 map <D-8> 8gt
 map <D-9> 9gt
 map <D-0> :tablast<CR>
+
+" handle hidden buffers with ease
+set hidden
