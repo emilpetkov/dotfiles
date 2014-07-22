@@ -26,6 +26,7 @@ Plugin 'The-NERD-Commenter'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'kana/vim-textobj-user'
 Plugin 'nelstrom/vim-textobj-rubyblock'
+Plugin 'vim-ruby/vim-ruby'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -118,3 +119,9 @@ vmap <D-[> <gv
 vmap <D-]> >gv
 
 runtime macros/matchit.vim  
+
+" Shortcut to rapidly toggle `set list`
+nmap <leader>l :set list!<CR>
+
+" Use the same symbols as TextMate for tabstops and EOLs
+set listchars=tab:▸\ ,eol:¬
