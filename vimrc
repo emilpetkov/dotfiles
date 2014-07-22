@@ -24,6 +24,8 @@ Plugin 'thoughtbot/vim-rspec'
 Plugin 'ecomba/vim-ruby-refactoring'
 Plugin 'The-NERD-Commenter' 
 Plugin 'tpope/vim-unimpaired'
+Plugin 'kana/vim-textobj-user'
+Plugin 'nelstrom/vim-textobj-rubyblock'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -114,3 +116,5 @@ nmap <D-[> <<
 nmap <D-]> >>
 vmap <D-[> <gv
 vmap <D-]> >gv
+
+runtime macros/matchit.vim  
