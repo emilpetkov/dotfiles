@@ -1,5 +1,6 @@
 require 'pp'
 require 'rubygems'
+require 'interactive_editor'
  
 # wirble is amazing
 require 'wirble'
