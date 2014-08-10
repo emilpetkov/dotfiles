@@ -53,6 +53,18 @@ set backspace=indent,eol,start            " backspace through everything in inse
 " useful cmd to wrap lines with linebreaks and nolist when needed
 command! -nargs=* Wrap set wrap linebreak nolist
 
+" Use Cmd to move around through wrapped lines
+vmap <D-j> gj
+vmap <D-k> gk
+vmap <D-4> g$
+vmap <D-6> g^
+vmap <D-0> g^
+nmap <D-j> gj
+nmap <D-k> gk
+nmap <D-4> g$
+nmap <D-6> g^
+nmap <D-0> g^
+
 " Set tabstop, softtabstop and shiftwidth to the same value
 command! -nargs=* Stab call Stab()
 function! Stab()
