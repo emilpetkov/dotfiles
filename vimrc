@@ -28,6 +28,7 @@ Plugin 'kana/vim-textobj-user'
 Plugin 'nelstrom/vim-textobj-rubyblock'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'godlygeek/tabular'
+Plugin 'sjl/gundo.git'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -243,3 +244,5 @@ if exists(":Tabularize")
   vmap <Leader>a: :Tabularize /:\zs<CR>
 endif
 
+" mapping for Git Undo Tree
+nnoremap <F6> :GundoToggle<CR>
