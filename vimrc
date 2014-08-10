@@ -1,5 +1,5 @@
 set nocompatible              " be iMproved, required
-filetype off                  " required set number
+filetype off                  " required set 
 set tags=./tags;
 " Use ack instead of grep
 set grepprg=ack
@@ -69,7 +69,7 @@ map <C-c> y:e ~/clipsongzboard<CR>P:w !pbcopy<CR><CR>:bdelete!<CR>
 " RSpec.vim mappings
 map <Leader>t :call RunCurrentSpecFile()<CR>
 map <Leader>s :call RunNearestSpec()<CR>
-map <Leader>l :call RunLastSpec()<CR>
+map <Leader>la :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
 
 " Fugitive
