@@ -34,20 +34,19 @@ Plugin 'vim-ruby/vim-ruby'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
-filetype plugin indent on    " required
+filetype plugin indent on    " load file type plugins + indentation
 filetype plugin on
 
 set nocompatible                " choose no compatibility with legacy vi
 syntax enable
 set encoding=utf-8
 set showcmd                     " display incomplete commands
-filetype plugin indent on       " load file type plugins + indentation
  
 "" Whitespace
 set nowrap                                " don't wrap lines
 set textwidth=0 wrapmargin=0              " turn off automatic insertion of newlines
-set tabstop=2 softtabstop=2 shiftwidth=2  " a tab is two spaces (or set this to 4)
-set expandtab                             " use spaces, not tabs (optional)
+set tabstop=2 softtabstop=2 shiftwidth=2  " a tab is two spaces 
+set expandtab                             " use spaces, not tabs
 set backspace=indent,eol,start            " backspace through everything in insert mode
 
 " useful cmd to wrap lines with linebreaks and nolist when needed
@@ -205,3 +204,18 @@ function! <SID>StripTrailingWhitespaces()
 endfunction
 " maps the F5 to remove whitespaces in a file
 nnoremap <silent> <F5> :call <SID>StripTrailingWhitespaces()<CR>
+
+if has("autocmd")
+  " Enable filetype detection
+  filetype plugin indent on
+
+  " Restore cursor position
+  autocmd BufReadPost *
+    \ if line("'\"") > 1 && line("'\"") <= line("$") |
+    \   exe "normal! g`\"" |
+    \ endif
+endif
+if &t_Co > 2 || has("gui_running")
+  " Enable syntax highlighting
+  syntax on
+endif
