@@ -219,3 +219,11 @@ if &t_Co > 2 || has("gui_running")
   " Enable syntax highlighting
   syntax on
 endif
+
+" Source the vimrc file after saving it
+if has("autocmd")
+  autocmd bufwritepost .vimrc source $MYVIMRC
+endif
+
+" map <Leader>v to open the .vimrc in a new split window
+nmap <leader>v :vsplit $MYVIMRC<CR>
