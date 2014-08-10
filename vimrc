@@ -169,7 +169,23 @@ if has("autocmd")
   autocmd BufNewFile,BufRead *.rss, *.atom setfiletype xml
 endif
 
+" default font is Menlo Regular, 14
 set gfn=Menlo\ Regular:h14
 
 " always number
 set number
+
+" removes trailing whitespaces in a file
+function! <SID>StripTrailingWhitespaces()
+    " Preparation: save last search, and cursor position.
+    let _s=@/
+    let l = line(".")
+    let c = col(".")
+    " Do the business:
+    %s/\s\+$//e
+    " Clean up: restore previous search history, and cursor position
+    let @/=_s
+    call cursor(l, c)
+endfunction
+" maps the F5 to remove whitespaces in a file
+nnoremap <silent> <F5> :call <SID>StripTrailingWhitespaces()<CR>
