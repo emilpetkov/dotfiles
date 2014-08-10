@@ -45,6 +45,7 @@ filetype plugin indent on       " load file type plugins + indentation
  
 "" Whitespace
 set nowrap                                " don't wrap lines
+set textwidth=0 wrapmargin=0              " turn off automatic insertion of newlines
 set tabstop=2 softtabstop=2 shiftwidth=2  " a tab is two spaces (or set this to 4)
 set expandtab                             " use spaces, not tabs (optional)
 set backspace=indent,eol,start            " backspace through everything in insert mode
