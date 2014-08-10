@@ -27,6 +27,7 @@ Plugin 'tpope/vim-unimpaired'
 Plugin 'kana/vim-textobj-user'
 Plugin 'nelstrom/vim-textobj-rubyblock'
 Plugin 'vim-ruby/vim-ruby'
+Plugin 'godlygeek/tabular'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -233,3 +234,12 @@ nmap <silent> <leader>sp :set spell!<CR>
 
 " Set region to American English
 set spelllang=en_us
+
+" mappings for popular tabularizations
+if exists(":Tabularize")
+  nmap <Leader>a= :Tabularize /=<CR>
+  vmap <Leader>a= :Tabularize /=<CR>
+  nmap <Leader>a: :Tabularize /:\zs<CR>
+  vmap <Leader>a: :Tabularize /:\zs<CR>
+endif
+
