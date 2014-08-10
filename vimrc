@@ -142,3 +142,6 @@ if has("autocmd")
 endif
 
 set gfn=Menlo\ Regular:h14
+
+" always number
+set number
