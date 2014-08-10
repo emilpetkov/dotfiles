@@ -227,3 +227,9 @@ endif
 
 " map <Leader>v to open the .vimrc in a new split window
 nmap <leader>v :vsplit $MYVIMRC<CR>
+
+" mapping for faster spellcheck enabling
+nmap <silent> <leader>sp :set spell!<CR>
+
+" Set region to American English
+set spelllang=en_us
