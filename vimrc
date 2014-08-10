@@ -44,11 +44,39 @@ set showcmd                     " display incomplete commands
 filetype plugin indent on       " load file type plugins + indentation
  
 "" Whitespace
-set nowrap                      " don't wrap lines
-set tabstop=2 shiftwidth=2      " a tab is two spaces (or set this to 4)
-set expandtab                   " use spaces, not tabs (optional)
-set backspace=indent,eol,start  " backspace through everything in insert mode
- 
+set nowrap                                " don't wrap lines
+set tabstop=2 softtabstop=2 shiftwidth=2  " a tab is two spaces (or set this to 4)
+set expandtab                             " use spaces, not tabs (optional)
+set backspace=indent,eol,start            " backspace through everything in insert mode
+
+" Set tabstop, softtabstop and shiftwidth to the same value
+command! -nargs=* Stab call Stab()
+function! Stab()
+  let l:tabstop = 1 * input('set tabstop = softtabstop = shiftwidth = ')
+  if l:tabstop > 0
+    let &l:sts = l:tabstop
+    let &l:ts = l:tabstop
+    let &l:sw = l:tabstop
+  endif
+  call SummarizeTabs()
+endfunction
+
+function! SummarizeTabs()
+  try
+    echohl ModeMsg
+    echon 'tabstop='.&l:ts
+    echon ' shiftwidth='.&l:sw
+    echon ' softtabstop='.&l:sts
+    if &l:et
+      echon ' expandtab'
+    else
+      echon ' noexpandtab'
+    endif
+  finally
+    echohl None
+  endtry
+endfunction
+
 "" Searching
 set hlsearch                    " highlight matches
 set incsearch                   " incremental searching
