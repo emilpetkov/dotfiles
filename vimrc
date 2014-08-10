@@ -50,6 +50,9 @@ set tabstop=2 softtabstop=2 shiftwidth=2  " a tab is two spaces (or set this to 
 set expandtab                             " use spaces, not tabs (optional)
 set backspace=indent,eol,start            " backspace through everything in insert mode
 
+" useful cmd to wrap lines with linebreaks and nolist when needed
+command! -nargs=* Wrap set wrap linebreak nolist
+
 " Set tabstop, softtabstop and shiftwidth to the same value
 command! -nargs=* Stab call Stab()
 function! Stab()
