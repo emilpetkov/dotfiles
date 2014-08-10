@@ -140,3 +140,5 @@ if has("autocmd")
 
   autocmd BufNewFile,BufRead *.rss, *.atom setfiletype xml
 endif
+
+set gfn=Menlo\ Regular:h14
