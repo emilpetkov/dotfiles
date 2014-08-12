@@ -248,3 +248,5 @@ endif
 nnoremap <F6> :GundoToggle<CR>
 
 set wildmode=longest,list
+
+set history=10000
