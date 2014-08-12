@@ -246,3 +246,5 @@ endif
 
 " mapping for Git Undo Tree
 nnoremap <F6> :GundoToggle<CR>
+
+set wildmode=longest,list
