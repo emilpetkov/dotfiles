@@ -257,3 +257,6 @@ set history=10000
 " history scrollers	
 cnoremap <C-p> <Up>
 cnoremap <C-n> <Down>
+
+" run specs in iterm, not default terminal
+let g:rspec_runner = "os_x_iterm"
