@@ -33,6 +33,11 @@ Plugin 'mileszs/ack.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-bundler'
 Plugin 'stefanoverna/vim-i18n'
+Plugin 'facebook/vim-flow'
+Plugin 'andrewradev/whitespaste.vim'
+Plugin 'andrewradev/splitjoin.vim'
+Plugin 'andrewradev/switch.vim'
+Plugin 'jeffkreeftmeijer/vim-numbertoggle'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -262,5 +267,4 @@ cnoremap <C-n> <Down>
 " run specs in iterm, not default terminal
 let g:rspec_runner = "os_x_iterm"
 
-" add mapping for easily translating strings in Rails
 vmap <Leader>z :call I18nTranslateString()<CR>
