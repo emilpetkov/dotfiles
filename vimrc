@@ -268,3 +268,6 @@ cnoremap <C-n> <Down>
 let g:rspec_runner = "os_x_iterm"
 
 vmap <Leader>z :call I18nTranslateString()<CR>
+
+" spell checking and automatic wrapping at the recommended 72 columns for commit messages
+autocmd Filetype gitcommit setlocal spell textwidth=72
