@@ -56,3 +56,4 @@ alias mysqlstop='sudo /usr/local/mysql/support-files/mysql.server stop'
 
 # misc
 alias butterfly='butterfly.server.py --unsecure'
+alias mtr='/usr/local/Cellar/mtr/0.86/sbin/mtr'
