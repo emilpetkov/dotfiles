@@ -1,6 +1,7 @@
 [user]
   email = emil@emerchantpay.com
   name = Emil Petkov
+	signingkey = DC0FFB3C
 [alias]
   st = status
   co = checkout
@@ -41,3 +42,9 @@
 	tool = vimdiff
 [difftool]
 	prompt = false
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
+[rerere]
+	enabled = true
