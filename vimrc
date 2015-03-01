@@ -271,3 +271,6 @@ vmap <Leader>z :call I18nTranslateString()<CR>
 
 " spell checking and automatic wrapping at the recommended 72 columns for commit messages
 autocmd Filetype gitcommit setlocal spell textwidth=72
+
+" don't give the ATTENTION message when an existing swap file is found
+set shortmess+=A
