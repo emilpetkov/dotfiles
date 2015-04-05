@@ -13,7 +13,7 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-fugitive.git'
-Plugin 'https://github.com/vim-scripts/ScrollColors'
+Plugin 'vim-scripts/ScrollColors'
 Plugin 'tpope/vim-rails'
 Plugin 'scrooloose/nerdtree'
 Plugin 'MarcWeber/vim-addon-mw-utils'
@@ -274,3 +274,6 @@ autocmd Filetype gitcommit setlocal spell textwidth=72
 
 " don't give the ATTENTION message when an existing swap file is found
 set shortmess+=A
+
+" define OpenURL command
+:command -bar -nargs=1 OpenURL :!open <args>
