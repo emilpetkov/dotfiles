@@ -19,6 +19,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
+Plugin 'honza/vim-snippets'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'thoughtbot/vim-rspec'
 Plugin 'ecomba/vim-ruby-refactoring'
@@ -276,4 +277,4 @@ autocmd Filetype gitcommit setlocal spell textwidth=72
 set shortmess+=A
 
 " define OpenURL command
-:command -bar -nargs=1 OpenURL :!open <args>
+:command! -bar -nargs=1 OpenURL :!open <args>
