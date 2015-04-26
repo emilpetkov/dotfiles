@@ -39,6 +39,7 @@ Plugin 'andrewradev/whitespaste.vim'
 Plugin 'andrewradev/splitjoin.vim'
 Plugin 'andrewradev/switch.vim'
 Plugin 'jeffkreeftmeijer/vim-numbertoggle'
+Plugin 'kien/ctrlp.vim'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -278,3 +279,13 @@ set shortmess+=A
 
 " define OpenURL command
 :command! -bar -nargs=1 OpenURL :!open <args>
+
+" CtrlP
+let g:ctrlp_map = '<leader>f'
+let g:ctrlp_cmd = 'CtrlP'
+
+ "stuff to ignore when tab completing
+set wildignore=*.o,*.obj,*~
+set wildignore+=*/tmp/*,*/coverage/*,*/.git/*,*/node_modules/*
+set wildignore+=*.gem,coverage/**,log/**,.git,tags,*.rbc,*.ttf,*.eot
+
