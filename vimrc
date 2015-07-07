@@ -290,3 +290,6 @@ set wildignore=*.o,*.obj,*~
 set wildignore+=*/tmp/*,*/coverage/*,*/.git/*,*/node_modules/*
 set wildignore+=*.gem,coverage/**,log/**,.git,tags,*.rbc,*.ttf,*.eot
 
+" a better :w !diff % -
+command DiffOrig vert new | set bt=nofile | r # | 0d_ | diffthis
+	 	\ | wincmd p | diffthis
