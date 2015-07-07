@@ -54,7 +54,8 @@ set nocompatible                " choose no compatibility with legacy vi
 syntax enable
 set encoding=utf-8
 set showcmd                     " display incomplete commands
- 
+set autoread
+
 "" Whitespace
 set nowrap                                " don't wrap lines
 set textwidth=0 wrapmargin=0              " turn off automatic insertion of newlines
