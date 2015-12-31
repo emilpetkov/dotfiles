@@ -1,8 +1,10 @@
 require 'pp'
 require 'rubygems'
 require 'interactive_editor'
- 
-# wirble is amazing
+require 'awesome_print'
+
+AwesomePrint.irb!
+
 require 'wirble'
 Wirble.init
 Wirble.colorize
