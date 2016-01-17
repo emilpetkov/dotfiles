@@ -1,0 +1,30 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3291
+
+ Summary
+ =======
+ The OprnUrl function opens a url which is a first one in a line.
+
+ Require
+ =======
+ You need a python interface.
+
+ Usage
+ =====
+ If there is a line such that
+
+ Sample line. http://aaa http://bbb
+
+ You use ':OpenUrl' command in this line, 
+ then you can open http://aaa in a default web browser.
+
+
+
+ I set a command for OpenUrl function, such that
+
+ command OpenUrl :call OpenUrl()
+ 
+ You can change command name by changing above command ame 'OpenUrl'.
+
+ example)
+ command AnotherOpenUrlName :call OpenUrl()
+
