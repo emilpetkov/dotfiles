@@ -21,7 +21,7 @@
   ls = ls-files
   pul = pull
   g = grep --break --heading --line-number
-  current-branch = git rev-parse --abbrev-ref HEAD
+  current-branch = rev-parse --abbrev-ref HEAD
 [color]
   branch = auto
   diff = auto
