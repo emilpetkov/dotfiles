@@ -1,5 +1,5 @@
 set nocompatible              " be iMproved, required
-filetype off                  " required set 
+filetype off                  " required set
 set tags=./tags;
 " Use ack instead of grep
 set grepprg=ack
@@ -9,7 +9,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 " " alternatively, pass a path where Vundle should install plugins
 " "call vundle#begin('~/some/path/here')
- 
+
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-fugitive.git'
@@ -23,7 +23,7 @@ Plugin 'honza/vim-snippets'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'thoughtbot/vim-rspec'
 Plugin 'ecomba/vim-ruby-refactoring'
-Plugin 'The-NERD-Commenter' 
+Plugin 'The-NERD-Commenter'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'kana/vim-textobj-user'
 Plugin 'nelstrom/vim-textobj-rubyblock'
@@ -33,6 +33,7 @@ Plugin 'sjl/gundo.git'
 Plugin 'mileszs/ack.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-bundler'
+Plugin 'tpope/vim-rvm'
 Plugin 'stefanoverna/vim-i18n'
 Plugin 'facebook/vim-flow'
 Plugin 'andrewradev/whitespaste.vim'
@@ -43,7 +44,7 @@ Plugin 'kien/ctrlp.vim'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
-    
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
@@ -59,7 +60,7 @@ set autoread
 "" Whitespace
 set nowrap                                " don't wrap lines
 set textwidth=0 wrapmargin=0              " turn off automatic insertion of newlines
-set tabstop=2 softtabstop=2 shiftwidth=2  " a tab is two spaces 
+set tabstop=2 softtabstop=2 shiftwidth=2  " a tab is two spaces
 set expandtab                             " use spaces, not tabs
 set backspace=indent,eol,start            " backspace through everything in insert mode
 
@@ -131,7 +132,7 @@ map <Leader>a :call RunAllSpecs()<CR>
 
 " Fugitive
 " maps .. to the :edit %:h
-autocmd User fugitive 
+autocmd User fugitive
   \ if fugitive#buffer().type() =~# '^\%(tree\|blob\)$' |
   \   nnoremap <buffer> .. :edit %:h<CR> |
   \ endif
@@ -175,7 +176,7 @@ nmap <D-]> >>
 vmap <D-[> <gv
 vmap <D-]> >gv
 
-runtime macros/matchit.vim  
+runtime macros/matchit.vim
 
 " Shortcut to rapidly toggle `set list`
 nmap <leader>l :set list!<CR>
@@ -263,7 +264,7 @@ set wildmode=longest,list
 
 set history=10000
 
-" history scrollers	
+" history scrollers
 cnoremap <C-p> <Up>
 cnoremap <C-n> <Down>
 
