@@ -49,3 +49,5 @@
 	smudge = git media smudge %f
 [rerere]
 	enabled = true
+[credential]
+	helper = osxkeychain
