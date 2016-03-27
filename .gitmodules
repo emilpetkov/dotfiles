@@ -88,3 +88,6 @@
 [submodule "dotvim/bundle/vim-textobj-user"]
 	path = dotvim/bundle/vim-textobj-user
 	url = https://github.com/nelstrom/vim-textobj-user
+[submodule "dotvim/bundle/ag.vim"]
+	path = dotvim/bundle/ag.vim
+	url = https://github.com/rking/ag.vim

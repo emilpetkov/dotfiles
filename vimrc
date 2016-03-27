@@ -1,8 +1,6 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required set
 set tags=./tags;
-" Use ack instead of grep
-set grepprg=ack
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -30,6 +28,7 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'godlygeek/tabular'
 Plugin 'sjl/gundo.vim'
 Plugin 'mileszs/ack.vim'
+Plugin 'rking/ag.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-bundler'
 Plugin 'tpope/vim-rvm'
@@ -293,3 +292,7 @@ set wildignore+=*.gem,coverage/**,log/**,.git,tags,*.rbc,*.ttf,*.eot
 " a better :w !diff % -
 command DiffOrig vert new | set bt=nofile | r # | 0d_ | diffthis
 	 	\ | wincmd p | diffthis
+
+" Use ack instead of grep
+set grepprg=ack\ --nogroup\ --column\ $*
+set grepformat=%f:%l:%c:%m
