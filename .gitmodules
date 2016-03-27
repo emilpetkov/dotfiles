@@ -19,9 +19,6 @@
 [submodule "dotvim/bundle/whitespaste"]
 	path = dotvim/bundle/whitespaste.vim
 	url = https://github.com/AndrewRadev/whitespaste.vim
-[submodule "dotvim/bundle/ack"]
-	path = dotvim/bundle/ack
-	url = https://github.com/AndrewRadev/ack.vim
 [submodule "dotvim/bundle/bundler"]
 	path = dotvim/bundle/vim-bundler
 	url = https://github.com/tpope/vim-bundler
@@ -43,9 +40,6 @@
 [submodule "dotvim/bundle/switch"]
 	path = dotvim/bundle/switch.vim
 	url = https://github.com/AndrewRadev/switch.vim
-[submodule "dotvim/bundle/whitespaste"]
-	path = dotvim/bundle/whitespaste
-	url = git://github.com/AndrewRadev/whitespaste.vim
 [submodule "dotvim/bundle/gundo"]
 	path = dotvim/bundle/gundo.vim
 	url = https://github.com/sjl/gundo.vim
