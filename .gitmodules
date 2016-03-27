@@ -1,0 +1,96 @@
+[submodule "dotvim/bundle/scrollcolors"]
+	path = dotvim/bundle/ScrollColors
+  url = https://github.com/vim-scripts/ScrollColors
+[submodule "dotvim/bundle/vundle"]
+	path = dotvim/bundle/Vundle.vim
+	url = https://github.com/VundleVim/Vundle.vim
+[submodule "dotvim/bundle/ctrlp.vim"]
+	path = dotvim/bundle/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim
+[submodule "dotvim/bundle/vim-fugitive"]
+	path = dotvim/bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule "dotvim/bundle/tabular"]
+	path = dotvim/bundle/tabular
+	url = https://github.com/godlygeek/tabular
+[submodule "dotvim/bundle/splitjoin"]
+	path = dotvim/bundle/splitjoin.vim
+	url = https://github.com/AndrewRadev/splitjoin.vim
+[submodule "dotvim/bundle/whitespaste"]
+	path = dotvim/bundle/whitespaste.vim
+	url = https://github.com/AndrewRadev/whitespaste.vim
+[submodule "dotvim/bundle/ack"]
+	path = dotvim/bundle/ack
+	url = https://github.com/AndrewRadev/ack.vim
+[submodule "dotvim/bundle/bundler"]
+	path = dotvim/bundle/vim-bundler
+	url = https://github.com/tpope/vim-bundler
+[submodule "dotvim/bundle/vim-rails"]
+	path = dotvim/bundle/vim-rails
+	url = https://github.com/tpope/vim-rails
+[submodule "dotvim/bundle/unimpaired"]
+	path = dotvim/bundle/unimpaired
+	url = https://github.com/tpope/vim-unimpaired
+[submodule "dotvim/bundle/nerdtree"]
+	path = dotvim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree
+[submodule "dotvim/bundle/vim-ruby"]
+	path = dotvim/bundle/vim-ruby
+	url = https://github.com/vim-ruby/vim-ruby
+[submodule "dotvim/bundle/git"]
+	path = dotvim/bundle/git
+	url = https://github.com/tpope/vim-git
+[submodule "dotvim/bundle/switch"]
+	path = dotvim/bundle/switch.vim
+	url = https://github.com/AndrewRadev/switch.vim
+[submodule "dotvim/bundle/whitespaste"]
+	path = dotvim/bundle/whitespaste
+	url = git://github.com/AndrewRadev/whitespaste.vim
+[submodule "dotvim/bundle/gundo"]
+	path = dotvim/bundle/gundo.vim
+	url = https://github.com/sjl/gundo.vim
+[submodule "dotvim/bundle/textobj-user"]
+	path = dotvim/bundle/textobj-user
+	url = https://github.com/kana/vim-textobj-user
+[submodule "dotvim/bundle/textobj-comment"]
+	path = dotvim/bundle/textobj-comment
+  url = https://github.com/glts/vim-textobj-comment
+[submodule "dotvim/bundle/tlib"]
+	path = dotvim/bundle/tlib_vim
+	url = https://github.com/tomtom/tlib_vim
+[submodule "dotvim/bundle/vim-addon-mw-utils"]
+	path = dotvim/bundle/vim-addon-mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils
+[submodule "dotvim/bundle/vim-flow"]
+	path = dotvim/bundle/vim-flow
+	url = https://github.com/flowtype/vim-flow
+[submodule "dotvim/bundle/vim-i18n"]
+	path = dotvim/bundle/vim-i18n
+	url = https://github.com/stefanoverna/vim-i18n
+[submodule "dotvim/bundle/vim-numbertoggle"]
+	path = dotvim/bundle/vim-numbertoggle
+	url = https://github.com/jeffkreeftmeijer/vim-numbertoggle
+[submodule "dotvim/bundle/vim-rspec"]
+	path = dotvim/bundle/vim-rspec
+  url = https://github.com/thoughtbot/vim-rspec
+[submodule "dotvim/bundle/vim-rcm"]
+	path = dotvim/bundle/vim-rvm
+  url = https://github.com/tpope/vim-rvm
+[submodule "dotvim/bundle/vim-snipmate"]
+	path = dotvim/bundle/vim-snipmate
+  url = https://github.com/garbas/vim-snipmate
+[submodule "dotvim/bundle/vim-snippets"]
+	path = dotvim/bundle/vim-snippets
+  url = https://github.com/honza/vim-snippets
+[submodule "dotvim/bundle/vim-surround"]
+	path = dotvim/bundle/vim-surround
+  url = https://github.com/tpope/vim-surround
+[submodule "dotvim/bundle/vim-ruby-refactoring"]
+	path = dotvim/bundle/vim-ruby-refactoring
+	url = https://github.com/ecomba/vim-ruby-refactoring
+[submodule "dotvim/bundle/vim-textobj-rubyblock"]
+	path = dotvim/bundle/vim-textobj-rubyblock
+	url = https://github.com/nelstrom/vim-textobj-rubyblock
+[submodule "dotvim/bundle/vim-textobj-user"]
+	path = dotvim/bundle/vim-textobj-user
+	url = https://github.com/nelstrom/vim-textobj-user
