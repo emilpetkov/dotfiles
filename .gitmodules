@@ -91,3 +91,6 @@
 [submodule "dotvim/bundle/ag.vim"]
 	path = dotvim/bundle/ag.vim
 	url = https://github.com/rking/ag.vim
+[submodule "dotvim/bundle/vim-qargs"]
+	path = dotvim/bundle/vim-qargs
+	url = https://github.com/nelstrom/vim-qargs
