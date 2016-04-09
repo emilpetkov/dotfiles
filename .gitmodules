@@ -97,3 +97,9 @@
 [submodule "dotvim/bundle/vim-visual-star-search"]
 	path = dotvim/bundle/vim-visual-star-search
 	url = https://github.com/nelstrom/vim-visual-star-search
+[submodule "dotvim/bundle/vim-abolish"]
+	path = dotvim/bundle/vim-abolish
+	url = https://github.com/tpope/vim-abolish
+[submodule "dotvim/bundle/vim-repeat"]
+	path = dotvim/bundle/vim-repeat
+	url = https://github.com/tpope/vim-repeat
