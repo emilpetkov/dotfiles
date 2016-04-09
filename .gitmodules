@@ -94,3 +94,6 @@
 [submodule "dotvim/bundle/vim-qargs"]
 	path = dotvim/bundle/vim-qargs
 	url = https://github.com/nelstrom/vim-qargs
+[submodule "dotvim/bundle/vim-visual-star-search"]
+	path = dotvim/bundle/vim-visual-star-search
+	url = https://github.com/nelstrom/vim-visual-star-search

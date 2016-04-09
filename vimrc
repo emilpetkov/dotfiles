@@ -23,7 +23,6 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'kana/vim-textobj-user'
-Plugin 'nelstrom/vim-textobj-rubyblock'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'godlygeek/tabular'
 Plugin 'sjl/gundo.vim'
@@ -39,7 +38,9 @@ Plugin 'andrewradev/splitjoin.vim'
 Plugin 'andrewradev/switch.vim'
 Plugin 'jeffkreeftmeijer/vim-numbertoggle'
 Plugin 'kien/ctrlp.vim'
+Plugin 'nelstrom/vim-textobj-rubyblock'
 Plugin 'nelstrom/vim-qargs'
+Plugin 'nelstrom/vim-visual-star-search'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
