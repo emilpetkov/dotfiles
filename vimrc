@@ -327,3 +327,6 @@ autocmd FileType tex,plaintex let b:switch_custom_definitions =
     \      'Montpellier', 'PaloAlto', 'Pittsburgh', 'Rochester', 'Singapore',
     \      'Szeged', 'Warsaw' ]
     \ ]
+
+" map Q to easily search again and repeat
+nnoremap Q :normal n.<CR>
