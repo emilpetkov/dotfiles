@@ -272,7 +272,7 @@ cnoremap <C-p> <Up>
 cnoremap <C-n> <Down>
 
 " run specs in iterm, not default terminal
-let g:rspec_runner = "os_x_iterm"
+let g:rspec_runner = "os_x_iterm2"
 
 vmap <Leader>z :call I18nTranslateString()<CR>
 
