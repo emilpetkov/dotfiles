@@ -9,3 +9,5 @@ export PATH=$PATH:~/.gem/ruby/1.8/bin
 
 export PATH="$PATH:/usr/local/mysql/bin"
 #export DYLD_LIBRARY_PATH=/usr/local/mysql/lib
+
+export NODE_PATH=/usr/local/lib/node_modules
