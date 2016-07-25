@@ -330,3 +330,7 @@ autocmd FileType tex,plaintex let b:switch_custom_definitions =
 
 " map Q to easily search again and repeat
 nnoremap Q :normal n.<CR>
+
+" make the 81st column stand out
+highlight ColorColumn ctermbg=magenta
+call matchadd('ColorColumn', '\%81v', 100)
