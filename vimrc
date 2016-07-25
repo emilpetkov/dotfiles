@@ -43,6 +43,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'nelstrom/vim-textobj-rubyblock'
 Plugin 'nelstrom/vim-visual-star-search'
 Plugin 'tommcdo/vim-exchange'
+Plugin 'kchmck/vim-coffee-script'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
