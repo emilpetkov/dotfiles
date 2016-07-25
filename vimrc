@@ -41,7 +41,6 @@ Plugin 'andrewradev/switch.vim'
 Plugin 'jeffkreeftmeijer/vim-numbertoggle'
 Plugin 'kien/ctrlp.vim'
 Plugin 'nelstrom/vim-textobj-rubyblock'
-Plugin 'nelstrom/vim-qargs'
 Plugin 'nelstrom/vim-visual-star-search'
 Plugin 'tommcdo/vim-exchange'
 
