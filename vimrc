@@ -44,6 +44,7 @@ Plugin 'nelstrom/vim-textobj-rubyblock'
 Plugin 'nelstrom/vim-visual-star-search'
 Plugin 'tommcdo/vim-exchange'
 Plugin 'kchmck/vim-coffee-script'
+Plugin 'ntpeters/vim-better-whitespace'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
