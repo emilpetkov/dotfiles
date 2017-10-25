@@ -1,7 +1,7 @@
 [user]
   email = emil@emerchantpay.com
   name = Emil Petkov
-	signingkey = DC0FFB3C
+  signingkey = 033EE7D7
 [alias]
   st = status
   co = checkout
@@ -51,3 +51,7 @@
 	enabled = true
 [credential]
 	helper = osxkeychain
+[http]
+	sslVerify = false
+[gpg]
+	program = /usr/local/bin/gpg1
