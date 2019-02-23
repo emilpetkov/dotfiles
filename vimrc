@@ -45,6 +45,7 @@ Plugin 'nelstrom/vim-visual-star-search'
 Plugin 'tommcdo/vim-exchange'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'ntpeters/vim-better-whitespace'
+Plugin 'rodjek/vim-puppet'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
