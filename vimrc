@@ -2,6 +2,9 @@ set nocompatible              " be iMproved, required
 filetype off                  " required set
 set tags=./tags;
 
+" https://github.com/macvim-dev/macvim/issues/581 in Mojave
+set rubydll=/usr/local/Cellar/ruby/2.6.3/lib/libruby.2.6.dylib
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
